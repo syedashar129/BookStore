@@ -24,6 +24,12 @@ const columns = [
         width: 150,
         editable: true,
     },
+    {
+        field: 'date',
+        headerName: 'Date',
+        width: 150,
+        editable: true,
+    }
 ];
 
 
@@ -47,6 +53,7 @@ export default function App() {
 
     return (
         <Box sx={{ height: 400, width: '100%' }}>
+            <h1>Book Store</h1>
             <DataGrid
                 rows={data}
                 columns={columns}

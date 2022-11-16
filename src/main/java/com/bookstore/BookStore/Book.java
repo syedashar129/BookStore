@@ -10,11 +10,14 @@ public class Book {
     private int id;
     private String bookName;
     private String buyerName;
+    private String date;
 
-    public Book(int id, String bookName, String buyerName) {
+
+    public Book(int id, String bookName, String buyerName, String date) {
         this.id = id;
         this.bookName = bookName;
         this.buyerName = buyerName;
+        this.date = date;
     }
 
     Book (){
@@ -45,4 +48,11 @@ public class Book {
         this.buyerName = buyerName;
     }
 
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 }
