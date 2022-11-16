@@ -36,6 +36,12 @@ public class BookController {
         repository.save(book);
     }
 
+    //DELETE (All)
+    @DeleteMapping("/books")
+    public void deleteBooks(){
+        repository.deleteAll();
+    }
+
     //DELETE
     @DeleteMapping("/books/{id}")
     public void deleteBook (@PathVariable int id){
