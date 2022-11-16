@@ -5,6 +5,7 @@ import axios from 'axios';
 
 import * as React from 'react';
 import Box from '@mui/material/Box';
+import SearchAppBar from "./SearchAppBar";
 import { DataGrid } from '@mui/x-data-grid';
 
 const columns = [
@@ -53,7 +54,7 @@ export default function App() {
 
     return (
         <Box sx={{ height: 400, width: '100%' }}>
-            <h1>Book Store</h1>
+            <SearchAppBar/>
             <DataGrid
                 rows={data}
                 columns={columns}
