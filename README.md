@@ -6,5 +6,4 @@ This is a Book Store project which displays Books by their ID, name, buyer name,
 * **Back End** : Spring Boot (REST API)
 * **Database** : MongoDB
 
-
-<img width="712" alt="Screen Shot 2022-11-15 at 7 31 55 PM" src="https://user-images.githubusercontent.com/73435085/202061245-5e85e139-419b-45f5-937c-f6356d176a72.png">
+<img width="712" alt="Screen Shot 2022-11-15 at 7 35 38 PM" src="https://user-images.githubusercontent.com/73435085/202061709-96d3aa32-a016-4e30-b8bb-db541628ad5b.png">
