@@ -66,38 +66,3 @@ export default function App() {
         </Box>
     );
 }
-
-
-// function App() {
-//   const [data, setData] = useState([]);
-//
-//   useEffect (() => {
-//       getBooks();
-//   }, [])
-//
-//   const getBooks  = () => {
-//       axios.get(
-//           '/books'
-//       )
-//       .then ((response) => {
-//         setData(response.data)
-//       })
-//
-//   }
-//   console.log(data);
-//
-//
-//   return (
-//     <div className="App">
-//         {data.map(book => {
-//             return(
-//                 <table>
-//             ]
-//                 </table>
-//             )
-//         })}
-//     </div>
-//   );
-// }
-//
-// export default App;
